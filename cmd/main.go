@@ -1,17 +1,10 @@
 package main
 
 import (
-	"context"
-	"encoding/json"
-	"errors"
 	"fmt"
 	"log"
-	"os"
-	"os/signal"
-	"syscall"
-	"time"
-
 	"net/http"
+	"syscall"
 )
 
 func main() {
